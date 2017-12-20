@@ -14,7 +14,7 @@ class FillArrays {
         TableViewCell.title.removeAll() // clean array
         for item in SortJSON.arrayOfInstances {
             TableViewCell.title.append(item.title)
-        }
+        } 
         SortJSON.arrayOfInstances.removeAll()
     }
 }

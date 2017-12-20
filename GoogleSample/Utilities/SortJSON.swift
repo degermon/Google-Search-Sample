@@ -20,7 +20,7 @@ class SortJSON {
         guard let array = data["items"] as? Array<Dictionary<String, Any>> else {
             return
         }
-        
+         
         for item in array {
             let instance = StoredData()
 

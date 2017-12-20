@@ -10,4 +10,4 @@ import Foundation
 
 class StoredData {
     var title : String = ""
-}
+} 

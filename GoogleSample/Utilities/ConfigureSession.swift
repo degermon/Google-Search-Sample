@@ -12,7 +12,7 @@ class ConfigureSession {
     class func configureSession() -> URLSession {
         let configuration = URLSessionConfiguration.default
         let session = URLSession(configuration: configuration, delegate: nil, delegateQueue: OperationQueue.main)
-        
+         
         return session
     }
 }

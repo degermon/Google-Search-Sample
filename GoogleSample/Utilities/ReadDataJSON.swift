@@ -15,7 +15,7 @@ class ReadDataJSON {
         // Parse the data in the response and use it
         guard let data = data else {
             return
-        }
+        } 
         guard let json = try? JSONSerialization.jsonObject(with: data, options: .mutableContainers) else {
             return
         }
